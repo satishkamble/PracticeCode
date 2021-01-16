@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.3 on win32)" generated="20210116 15:07:28.030" rpa="false">
+<suite id="s1" name="PracticeRobotFramework" source="D:\workspace\PracticeRobotFramework">
+<suite id="s1-s1" name="Test Suites" source="D:\workspace\PracticeRobotFramework\Test Suites">
+<suite id="s1-s1-s1" name="Login Test" source="D:\workspace\PracticeRobotFramework\Test Suites\Login_Test.robot">
+<test id="s1-s1-s1-t1" name="TC001_test">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Hello to New Framework</arg>
+</arguments>
+<status status="PASS" starttime="20210116 15:07:30.508" endtime="20210116 15:07:30.509"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Execution Step</arg>
+</arguments>
+<status status="PASS" starttime="20210116 15:07:30.509" endtime="20210116 15:07:30.510"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Validation</arg>
+</arguments>
+<status status="PASS" starttime="20210116 15:07:30.510" endtime="20210116 15:07:30.510"></status>
+</kw>
+<status status="PASS" starttime="20210116 15:07:30.507" endtime="20210116 15:07:30.511" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210116 15:07:30.502" endtime="20210116 15:07:30.511"></status>
+</suite>
+<status status="PASS" starttime="20210116 15:07:30.498" endtime="20210116 15:07:30.513"></status>
+</suite>
+<status status="PASS" starttime="20210116 15:07:30.365" endtime="20210116 15:07:30.515"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="PracticeRobotFramework">PracticeRobotFramework</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Test Suites">PracticeRobotFramework.Test Suites</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Login Test">PracticeRobotFramework.Test Suites.Login Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
